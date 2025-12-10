@@ -9,7 +9,11 @@ nav{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding-top:20px;
+    align-items: center;
+    position:fixed;
+    background: #fff;
+    padding: 20px 0;
+    top: 0;
 }
 nav .brand{
     width:40px;
@@ -39,9 +43,28 @@ nav .menu img{
 .container{
     width:100%;
     margin-top: 20px;
+    background-color: #ccd5dc;
 }
 .container img{
     width:100%;
     height: 550px;
 }
-
+.container .quote{
+    width:90%;
+    padding: 50px;
+    margin: auto;
+}
+.container .quote q{
+    font-size: 18px;
+    font-style: italic;
+    color: #232222;
+}
+.container .quote p{
+    padding-top: 20px;
+    text-align: end;
+    font-weight: bold;
+    color: #232222;
+}
+.container .quote p span{
+    font-weight: 300;
+}
